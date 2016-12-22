@@ -1,0 +1,340 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:helvetica, arial , sans-serif;
+}
+
+
+#top-bar {
+	width:1000px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	height:40px;
+}
+
+#logo{
+
+margin-top:8px;
+margin-right:8px;
+width:85px;
+float:left;
+}
+
+.topbar-section {
+	float:left;
+	border-left: 1px #CCCCCC solid;
+	height:100%;
+}
+
+#signin-logo {
+	width:25px;
+	margin:8px 15px;
+	float:left;
+
+}
+#signin-text {
+	font-weight:bold;
+	position:relative;
+	top:11px;
+	font-size:0.8em;
+	margin-right:65px;
+	
+}
+
+
+.nav-text {
+	font-weight:bold;
+	position:relative;
+	top:11px;
+	margin-left:12px;
+	margin-right:12px;
+	font-size:0.8em;
+}
+
+#more-text {
+	margin-right:70px;
+}
+
+#more-arrow-1 {
+	float:right;
+	margin-top:11px;
+}
+
+#searchbox {
+	background-color: #E4E4E4;
+	border:none;
+	height:20px;
+	margin:11px 0px 11px 12px;
+	font-weight:bold;
+	float:left;
+}
+
+#magnifying-glass {
+	margin-top:11px;
+	height:22px;
+
+}
+
+.clear {
+	clear:both;
+}
+
+#menu-bar-container {
+
+background-color:#BB1919;
+width:100%;
+height:60px;
+}
+
+#menu-bar {
+	width:1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	color:#FFFFFF;
+	font-size:2.6em;
+	text-transform:uppercase;
+	font-weight:normal;
+	padding-top:8px;
+	margin:0;
+
+}
+
+#menu-bar-2-container {
+	background-color:#A91717;
+	width:100%;
+
+}
+
+#menu-bar-2 {
+	width:1018px;
+	margin:0 auto;
+	height:35px;
+}
+
+#menu-bar-2 a {
+	color:white;
+	text-decoration:none;
+	padding:0px 10px;
+	border-right:1px solid #BB4545;
+	font-size:14px;
+	position:relative;
+	top:25%;
+
+}
+
+.no-border {
+	border:none !important; 
+}
+
+.smaller-padding {
+	padding:0px 2px 0px 10px !important;
+}
+
+#menu-bar-2 a:hover {
+	
+	border-bottom: 5px solid #FFFFFF;
+	
+	/* border-bottom: rgba(17,103,168,0.3); */
+}
+
+#more-arrow-2 {
+	top:30%;
+	position:relative;
+	margin-left:-15px;
+}
+
+
+/*end of header*/
+
+
+/*start of body*/
+
+#page-container {
+	width:1000px;
+	margin:0 auto;
+}
+
+h2 {
+	font-weight:normal;
+	font-size:1.3em;
+	margin-top:10px;
+	border-bottom:3.5px solid #A91717;
+	width:105px;
+}
+
+h3 a {
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+}
+
+h3 a:hover {
+	color: #1167a8;
+}
+
+#article-summary {
+	color:#5A5A5A;
+	width:50%;
+	margin-top:10px;
+	font-size:14px;
+	float:left;
+
+}
+
+#article-summary img {
+	margin-right:-5px;
+	margin-top:-10px;
+	margin-left: -10px;
+	position:relative;
+	top:6px;
+	
+}
+
+#article-summary p:nth-child(2){
+	font-size:0.8em;
+	
+}
+#sub-heading-border {
+	color:#a61b1b;
+	font-size:1.2em;
+	margin-left:1.5%;
+	padding-left:1.5%;
+	border-left:1px solid #CCCCCC;
+	
+}
+#sub-heading-border:hover {
+	color: #1167a8;
+}
+
+#article-container {
+	float:left;
+	width:760px;
+	border-right: 1px solid #CCCCCC;
+	padding-right:20px;
+	height:750px;
+}
+
+#main-article-image {
+	width:350px;
+	height:200px;
+	margin-top:20px;
+	margin-left:30px;
+	
+}
+
+#article-hr {
+	border-top:1px solid #A91717;
+	width:45px;
+}
+
+.related-stories {
+	font-size:13.44px;
+	color:#222222;
+}
+#video-player-1 {
+	margin-bottom:2px;
+	width:6%;
+	padding-left:4px;
+}
+
+/* start of  Watch/Listen right hand section */
+
+#watch-listen {
+
+	position:relative;
+	left:1.5%;
+	font-weight:normal;
+	font-size:1.5em;
+	color:#404040;
+}
+
+.watch-listen-img-container {
+	width:99%;
+}
+
+.watch-listen-img {
+	margin-left:1.5%;
+	float:left;
+}
+
+.play-arrow {
+	position:relative;
+    margin-left: -8.2%;
+    margin-top: 3.5%;
+    float:left;
+}
+
+.speaker {
+    position:relative;
+    margin-left: -8.2%;
+    margin-top: 3.5%;
+    float:left;
+
+}
+
+.video-time {
+	position: relative;
+    margin-left: -6.1%;
+    margin-top: 3.5%;
+    text-decoration: none;
+    color: white;
+    width: 3;
+    height: 20px;
+    width: 35px;
+    padding-top: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    float:left;
+}
+
+.watch-listen-video-title {
+
+	color:black;
+	font-size:16px;
+	text-decoration:none;
+	font-weight:bold;
+	float: left;
+    margin-left: 15px;
+    height: 50px;
+    width: 185px;
+    overflow: visible;
+    position: relative;
+    height: 50px;
+}
+
+.watch-listen-video-title:hover {
+	color:#1167a8;
+}
+
+
+.watch-listen-clock-img {
+	width: 150px;
+    float: left;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.watch-listen-clock-img img {
+	position:relative;
+	top:6.5px;
+}
+
+.sub-heading-watch-listen {
+	width: 150px;
+    float: left;
+    margin-left: 10.8%;
+    font-size: 13px;
+    color: #a61b1b;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom:20px;
+}
+
+.sub-heading-watch-listen:hover {
+	color:#1167a8;
+}
+
+
+
+/* end of watch/listen section */
